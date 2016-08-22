@@ -14,7 +14,7 @@ class Probase {
   const VERSION           = '1.3.2';
 
   /**
-  * All Clockwork API calls start with BASE_URL
+  * All Probase API calls start with BASE_URL
   * @author  Patrick Sikalinda
   */
   private $base_url = "http://smsapi.probasesms.com/apis/text/index.php";
@@ -44,7 +44,7 @@ class Probase {
   const API_BALANCE_METHOD = 'balance';
 
   /** 
-  * Clockwork API Key
+  * Probase API Key
   * 
   * @var string
   * @author  Patrick Sikalinda
@@ -110,7 +110,7 @@ class Probase {
   public $log;
 
   /**
-  * What Clockwork should do if you send an invalid character
+  * What Probase should do if you send an invalid character
   *
   * Possible values:
   *      'error'     - Return an error (Messasge is not sent)
@@ -121,9 +121,9 @@ class Probase {
   public $invalid_char_action;
 
   /**
-  * Create a new instance of the Clockwork wrapper
+  * Create a new instance of the Probase wrapper
   *
-  * @param   string  key         Your Clockwork API Key
+  * @param   string  key         Your Probase API Key
   * @param   array   options     Optional parameters for sending SMS
   * @author  Patrick Sikalinda
   */

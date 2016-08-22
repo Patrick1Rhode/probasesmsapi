@@ -22,5 +22,5 @@ catch (ProbaseException $e)
 }
 }
 
-sendsms("260972148199","hey Patrick");
+sendsms("260972148199","nice work Patrick");
 ?>
